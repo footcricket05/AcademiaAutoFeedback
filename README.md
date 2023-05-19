@@ -4,26 +4,26 @@ This script provides a simple way to automate the process of filling feedback us
 
 ## Prerequisites
 1. `Python 3.x`
-2. 
-3. `pynput library`
 
+2. `pynput library`
 
-## Install Python 3.x from the official Python website: https://www.python.org/downloads/
+## Installation
+1. Install Python 3.x from the official Python website: https://www.python.org/downloads/
 
-1. Install the pynput library by running the following command:
+2. Install the pynput library by running the following command:
 ```
 pip install pynput
 ```
 
-2. Copy the code from the provided file `(feedback_filler.py)` into a Python file.
+3. Copy the code from the provided file `(feedback_filler.py)` into a Python file.
 
-3. Run the Python script.
+4. Run the Python script.
+5. 
+6. Ensure that the cursor is positioned at the first index position in the feedback field.
 
-4. Ensure that the cursor is positioned at the first index position in the feedback field.
+6. The script will automatically move the cursor through each feedback field, pressing the down arrow key and tab key as necessary to fill the feedback.
 
-5. The script will automatically move the cursor through each feedback field, pressing the down arrow key and tab key as necessary to fill the feedback.
-
-6. Customize the script as needed to adjust the timing between key presses or the number of down arrow key presses.
+7. Customize the script as needed to adjust the timing between key presses or the number of down arrow key presses.
 
 ### Note: 
 The script assumes that the feedback fields are sequential and the down arrow key needs to be pressed multiple times to reach the next field. Modify the 'fill_feedback' function accordingly if your feedback fields have a different layout or require different key presses to navigate.
