@@ -18,8 +18,8 @@ pip install pynput
 3. Copy the code from the provided file `(feedback_filler.py)` into a Python file.
 
 4. Run the Python script.
-5. 
-6. Ensure that the cursor is positioned at the first index position in the feedback field.
+
+5. Ensure that the cursor is positioned at the first index position in the feedback field.
 
 6. The script will automatically move the cursor through each feedback field, pressing the down arrow key and tab key as necessary to fill the feedback.
 
