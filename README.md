@@ -1,37 +1,29 @@
-# Automated Feedback Filler for Academia SRM
-This script provides a simple way to automate the process of filling feedback using the pynput library in Python. By running this script, the cursor will automatically move through a series of feedback fields, pressing the down arrow key and tab key as necessary.
+# AutoFillSRM: Automated Feedback Filler for Academia SRM
 
+![Automated Feedback Filler](https://user-images.githubusercontent.com/93007427/250696802-08035044-d026-46f0-8ed4-8ea48eacc497.png)
+
+Automate the process of filling feedback effortlessly with AutoFillSRM. This Python script streamlines the feedback process for Academia SRM by using the pynput library to simulate key presses. It automatically navigates through the feedback fields, pressing the down arrow and tab keys as needed.
 
 ## Prerequisites
-1. `Python 3.x`
-
-2. `pynput library`
+1. Python 3.x
+2. pynput library
 
 ## Installation
-1. Install Python 3.x from the official Python website: https://www.python.org/downloads/
-
-2. Install the pynput library by running the following command:
-```
-pip install pynput
-```
-
-3. Copy the code from the provided file `(feedback_filler.py)` into a Python file.
-
+1. Get Python 3.x from the official Python website: [Python Downloads](https://www.python.org/downloads/)
+2. Install the pynput library with this command:
+   ```bash
+   pip install pynput
+   ```
+3. Copy the code from `feedback_filler.py` into your Python file.
 4. Run the Python script.
+5. Position your cursor at the first feedback field.
+6. AutoFillSRM will automatically move through the feedback fields, pressing the down arrow and tab keys to complete the process.
+7. Customize the script to adjust timing between key presses or the number of down arrow key presses as needed.
 
-5. Ensure that the cursor is positioned at the first index position in the feedback field.
-
-6. The script will automatically move the cursor through each feedback field, pressing the down arrow key and tab key as necessary to fill the feedback.
-
-7. Customize the script as needed to adjust the timing between key presses or the number of down arrow key presses.
-
-### Note: 
-The script assumes that the feedback fields are sequential and the down arrow key needs to be pressed multiple times to reach the next field. Modify the 'fill_feedback' function accordingly if your feedback fields have a different layout or require different key presses to navigate.
-
+**Note:** The script assumes sequential feedback fields and may need adjustments if your layout differs or requires different navigation keys.
 
 ## Contributing
-If you find any issues or have any suggestions for improvement, feel free to create a pull request or open an issue.
-
+If you encounter issues or have suggestions for improvement, please consider creating a pull request or opening an issue.
 
 ## License
-This project is licensed under the `MIT License` - see the License file for details.
+This project is licensed under the `MIT License`. Review the License file for details.
