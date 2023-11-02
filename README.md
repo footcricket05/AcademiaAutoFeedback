@@ -1,4 +1,4 @@
-# 🤖 AcademiaAutoFeedback: Automated Feedback Filler for Academia SRM 🤖
+# AcademiaAutoFeedback: Automated Feedback Filler for Academia SRM 🤖
 
 Automate the process of filling feedback effortlessly with AcademiaAutoFeedback. This Python script streamlines the feedback process for Academia SRM by using the pynput library to simulate key presses. It automatically navigates through the feedback fields, pressing the down arrow and tab keys as needed.
 
